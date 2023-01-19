@@ -4,6 +4,7 @@ const {ObjectId} = mongoose.Schema.Types;
 
 const StoreSchema = mongoose.Schema({
     name:{
+        
         type:String,
         required:[true,"Please Provide a Store name"],
         trim:true,
